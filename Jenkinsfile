@@ -3,7 +3,7 @@ pipeline {
     tools {
         maven 'Maven-3.9'
         jdk 'JDK-17'
-        fix: use JDK-17 as configured in Jenkins
+        
     }
     stages {
         stage('Checkout') {

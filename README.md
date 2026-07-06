@@ -15,6 +15,7 @@ API REST Spring Boot pour la gestion d'étudiants — TP Intégration Continue a
 ```bash
 mvn spring-boot:run
 ```
+Test webhook CI
 
 ## Exécuter les tests
 

@@ -90,6 +90,18 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!-- Checkstyle : analyse de style de code -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <configLocation>google_checks.xml</configLocation>
+                    <failOnViolation>false</failOnViolation>
+                    <violationSeverity>warning</violationSeverity>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
